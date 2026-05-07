@@ -14,6 +14,8 @@ d = {
   "nd" : { 1: "One", "Two" : 2 }
 }
 
+print("Value of nd[Two]:", d["nd"]["Two"])
+
 print(type(d), d)
 print(d["name"])
 name_of_key = "id"
@@ -22,6 +24,7 @@ print(d[name_of_key])
 
 for k in d:
     print(k,":",d[k], type(d[k]))
+
 
 # #   0, 1, 2    ,3
 # l=[12,13,"Four",15]
