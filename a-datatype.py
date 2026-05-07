@@ -9,7 +9,9 @@ dictionary : {}
 
 d = {
   "id" : 1234,
-  "name" : "Ck"
+  "name" : "Ck",
+  "l" : [12,13,"Four",15],
+  "nd" : { 1: "One", "Two" : 2 }
 }
 
 print(type(d), d)
@@ -18,6 +20,8 @@ name_of_key = "id"
 print(d[name_of_key])
 
 
+for k in d:
+    print(k,":",d[k], type(d[k]))
 
 # #   0, 1, 2    ,3
 # l=[12,13,"Four",15]
